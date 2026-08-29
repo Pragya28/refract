@@ -15,6 +15,12 @@ node_modules
 # Testing
 coverage
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
 # Turbo
 .turbo
 
@@ -36,3 +42,8 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Local-only symlink to central docs vault
+/central-docs
+# Added by code-review-graph
+.code-review-graph/
